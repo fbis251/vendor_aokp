@@ -3,8 +3,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76I BUILD_VERSION_TAGS=relea
 
 # Team Acid's version
 TA_STABLE := 40
-TA_RELEASE := 06
-TA_VERSION := $(TA_STABLE).$(TA_RELEASE)
+TA_RELEASE := 07
+TA_VERSION := $(TA_STABLE)$(TA_RELEASE)
 
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -15,5 +15,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=TeamAcid \
     ro.goo.rom=AOKP_sgs4gmtd \
-    ro.goo.version=$(TA_VERSION) \
-    ro.goo.board=$(PRODUCT_DEVICE)
+    ro.goo.version=$(TA_VERSION)
